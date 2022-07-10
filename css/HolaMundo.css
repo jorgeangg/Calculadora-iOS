@@ -1,0 +1,68 @@
+/*Contenedor de la calculadora*/
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-color:black;
+    margin-left: 35%;
+}
+/*Contenedor de la consola donde se muestran las operaciones*/
+#operaciones{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    align-items: flex-end;
+    height: 100px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+/*Consola donde se muestran las operaciones*/
+#resultados{
+    margin-right: 2%;
+}
+/*Contenedor de los botones*/
+.numeros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+/*Los botones*/
+.botones{
+    flex: 1 0 21%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 1%;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(54, 50, 50);
+    color: white;
+}
+/*Efecto de los botones */
+.botones:hover{
+    background-color:rgb(83, 77, 77); ;
+}
+/*color de los botones de los operadores*/
+.operador {
+    background-color: rgb(255, 174, 0);
+}
+/*color de los botones de los operadores al posar el raton sobre ellos*/
+.operador:hover{
+    background-color: rgb(247, 203, 108);
+}
+/*color de los 3 primeros botones*/
+.opciones{
+    background-color: rgb(143, 139, 139);
+}
+/*color de los 3 primeros botones cuando se posa el raton sobre ellos*/
+.opciones:hover{
+    background-color: rgb(179, 167, 167);
+}
